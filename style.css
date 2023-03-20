@@ -47,3 +47,20 @@ body {
 .alarm--ring {
   animation: ring 100ms 50;
 }
+
+.tlacitko {
+  background: red;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  max-width: 100px;
+}
+
+.tlacitko:hover {
+  font-weight: bold;
+
+}
+
+.pointer{
+  cursor: pointer;
+}
