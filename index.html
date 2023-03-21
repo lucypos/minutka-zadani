@@ -12,10 +12,10 @@
 
 <body>
   <audio>
-    <source src="assets/alarm.mp3" id='zvuk' type="audio/mpeg" />
+    <source src="assets/alarm.mp3" id='audio' class='audio' type="audio/mpeg" autoplay/>
   </audio>
   <div class="container">
-    <div><center><div onclick="vypnout" class="tlacitko pointer"> Vypnout</div></center></div>
+    <div><center><div onclick="preruseniZvoneni"  id='vypnout' class="tlacitko pointer"> Vypnout</div></center></div>
     <div class="alarm"></div>
   </div>
 </body>
