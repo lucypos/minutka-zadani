@@ -14,12 +14,7 @@ let vstupUzivatele = Number(prompt('Kolik vteřin, než minutka začne zvonit?')
 console.log(vteriny)
 
 const budik = setTimeout(zvoneni, vteriny)
-/*
-const preruseniZvoneni = () => {
-    cvrkot.classList.remove ('alarm--ring', 'audio');
-    console.log('Zrušeno')
-}
-*/
+
 const preruseniZvoneni = document.querySelector('.vypnout');
 vypnout.addEventListener('click', () => {
   clearTimeout(budik);
